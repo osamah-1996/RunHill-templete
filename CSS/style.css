@@ -1,0 +1,198 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Roboto", sans-serif;
+ }
+.nav-link {
+  font-size: 15px !important;
+  font-weight: 600 !important;
+}
+.nav-link:hover{
+  color: #FFC527 !important;
+}
+.dropdown-menu{
+  direction: rtl !important;
+  width: 300px !important;
+  margin-top: 22px !important;
+  text-align: right !important;
+  margin-right: auto;
+}
+.nav-item{
+  height: 100% !important;
+  
+}
+.nav-item:first-child{
+  background-color: #eee !important;
+  /* height: 100% !important; */
+}
+.nav-item:hover{
+  background-color: #eee !important;
+  height: 100% !important;
+}
+.carousel-item{
+  position: relative !important;
+}
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), 0, 0, 0, 0.7);
+}
+.underLine{
+  display: block;
+  width: 90px;
+  height: 4px;
+  background-color: #FFC527;
+  text-align: center;
+  margin-top: 15px;
+}
+.endeavour-section{
+  text-align: right;
+  margin-top: 150px;
+}
+.endeavour-title{
+  font-size: 45px;
+ 
+}
+.endeavour-box{
+  margin-top: 35px;
+  width: 90%;
+}
+.endeavour-box p{
+  line-height: 1.5 !important;
+  font-size: 17px;
+  font-weight: 400;
+}
+.best-award{
+  margin-top: 100px;
+  text-align: right;
+    
+}
+.section-header{
+  text-align: right;
+  padding-bottom: 35px;
+}
+.section-header h2{
+}
+.section-header span{
+  display: block;
+  width: 100px;
+  height: 4px;
+  background-color: #FFC527;
+}
+.about-us{
+  margin-top: 150px;
+  background-color: #eee;
+  padding: 50px;
+}
+.about-box{
+  gap: 10px;
+  text-align: right;
+}
+.about-box p{
+  color: rgb(34, 33, 33);
+}
+.about-us-header{
+  text-align: right;
+  padding-bottom: 50px;
+}
+.about-us-header span{
+  display: block;
+  width: 100px;
+  height: 4px;
+  background-color: #FFC527;
+}
+.category-section{
+  text-align: right;
+  margin-top: 50px;
+}
+.category-image{
+  width: 100px;
+  height:100px;
+  border-radius: 50%;
+  background-color: #FFC527;
+}
+.category-image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 100%;
+  padding: 25px 10px;
+}
+.category-image .fa {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+   color: #eee;
+}
+.category-description h4{
+  font-size: 25px;
+}
+.category-description p{
+  color: #686767;
+}
+.news-section{
+  text-align: right;
+  margin-top: 100px;
+}
+.card-custm{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.servicebtn{
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  width: 120px;
+  font-size: 15px;
+  font-weight: 400;
+}
+.servicebtn .fa {
+  margin-right: 15px !important;
+}
+.news-section-header span{
+  display: block;
+  width: 70px;
+  height: 4px;
+  background-color: #FFC527;
+  margin: 15px 0px;
+}
+.footer{
+  margin-top: 100px !important;
+  text-align: right;
+}
+ 
+@media screen and (max-width: 1000px) {
+  .dropdown-menu{
+    margin-top: 0px !important;
+  }
+  .endeavour-section{
+     margin-top:-300px;
+  }
+  .best-award .card{
+    margin-top: 15px !important ;
+    width: 90% !important;
+    margin: auto;
+  }
+  .endeavour-img{
+  width: 90% !important;
+  margin-top: 15px;
+}
+.about-box {
+  margin-top: 20px;
+}
+.about-box img{
+  width: 100%;
+}
+.card-custm{
+  width: 100% !important;
+  margin-top: 15px;
+}
+ 
+
+}
